@@ -1,0 +1,20 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "mock command line bamazon app",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mysql"
+  ],
+  "author": "dean dyer",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "colors": "^1.2.1",
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0"
+  }
+}
