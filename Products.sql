@@ -42,4 +42,5 @@ VALUES ("drop cloth", "paint supply", 29.99, 100);
 INSERT INTO Products (product_name, department_name, price, stock_quantity)
 VALUES ("paint brush", "paint tools", 14.99, 40);
 
+USE bamazon;
 select * from Products; 
