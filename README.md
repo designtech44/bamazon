@@ -1,11 +1,8 @@
 # Welcome to Bamazon
 Node.js &amp; MySQL Database
 
-Here is the link for the video to show the Bamazon process
-https://i.gyazo.com/e5398dad578ed4048e5d38cced4155d1.gif
 
-
-Here is the link for the gif to show the Bamazon process
+Here is the link for the gif to show the [Bamazon process](bamazon.png)
 
 ## Instructions
 
@@ -29,14 +26,19 @@ Here is the link for the gif to show the Bamazon process
 
 4. Populate this database with around 10 different products. (i.e. Insert "mock" data rows into this database and table).
 
-5. Then create a Node application called `bamazonCustomer.js`. Running this application will first display all of the items available for sale. Include the ids, names, and prices of products for sale.
+5. Then create a Node application called `bamazonCustomer.js`.
 
-6. The app should then prompt users with two messages.
+6. To Run this application in the bash terminal to display all of the items available for sale. Go to file, open terminal and type [nodemon] to start, and the node bamazonCustomer.js. window will open to Include the ids, Product names, Department, prices of products for sale and the Stock Quantity.
 
-* The first should ask them the ID of the product they would like to buy.
-* The second message should ask how many units of the product they would like to buy.
+7. The app should then prompt users with three messages.
 
-7. Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.
+* The first should ask them "Would you like to shop?" (Y/N).
+  
+* The second message should ask "Please select the ID of the product you wish to buy".
+
+* The third message is "How many units would you like to purchase?".
+
+1. Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.
 
 * If not, the app should log a phrase like `Insufficient quantity!`, and then prevent the order from going through.
 
