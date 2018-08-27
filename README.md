@@ -28,7 +28,7 @@ Here is the link for the gif to show the [Bamazon process](bamazon.png)
 
 5. Then create a Node application called `bamazonCustomer.js`.
 
-6. To Run this application in the bash terminal to display all of the items available for sale. Go to file, open terminal and type [nodemon] to start, and the node bamazonCustomer.js. window will open to Include the ids, Product names, Department, prices of products for sale and the Stock Quantity.
+6. To Run this application in the bash terminal to display all of the items available for sale. Go to file, open terminal and type `nodemon` to start, and the node bamazonCustomer.js. window will open to Include the ids, Product names, Department, prices of products for sale and the Stock Quantity.
 
 7. The app should then prompt users with three messages.
 
